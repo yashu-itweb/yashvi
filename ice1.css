@@ -1,0 +1,177 @@
+*{
+     margin:0;
+     padding:0;
+}
+header{
+min-height:100vh;
+width:100%;
+background-image: url(https://img.freepik.com/free-photo/delicious-ice-cream-cones_23-2149460312.jpg?t=st=1730741388~exp=1730744988~hmac=e05b8f11540fcfc262b8e328fa977277cead184488caef27750b519e73fbfc3a&w=996);
+background-position: center;
+    background-size: 100% 120%;
+    position: relative;
+    font-family: sans-serif;
+}
+.nav1{
+padding: 0% 0%;
+text-decoration:none;
+width:100%;
+height:100px;
+background-color:white;
+display:flex;
+/*--justify-content:space-around;--*/
+align-items:center;
+color:black;
+}
+.div2{
+flex:1;
+text-align:center;
+}
+.div2 ul li{
+list-style: none;
+display: inline-block;
+padding: 8px 12 px;
+position: relative;
+justify-content:space-around;
+}
+.div2 ul li a{
+text-decoration: none;
+font-size: 14px;
+color:black;
+}
+.div3 i{
+font-size: 30px;
+color:black;
+}
+.main-section {
+    padding: 40px;
+    text-align: center;
+}
+
+.intro h2 {
+    color: #e85a4f;
+}
+
+.flavor-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.flavor-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 15px;
+    padding: 20px;
+    transition: transform 0.2s;
+}
+
+.flavor-card img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.flavor-card h3 {
+    margin-top: 15px;
+    color: #333;
+}
+
+.flavor-card p {
+    color: #666;
+}
+
+.flavor-card:hover {
+    transform: scale(1.05);
+}
+
+/*----------footer------------*/
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.footer div {
+    flex: 1 1 200px;
+    margin-bottom: 20px;
+}
+
+.footer h3 {
+    color: #f4f4f4;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.footer p, .footer li {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+    color: #bbb;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links ul li a:hover {
+    color: #fff;
+}
+
+.footer-contact p {
+    font-size: 14px;
+}
+
+.footer-social {
+    text-align: center;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.social-icon {
+    margin: 0 10px;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    color: white;
+}
+
+
+.footer-bottom {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #444;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    color: #bbb;
+}
+
+
+
